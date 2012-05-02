@@ -10,7 +10,7 @@ module Formtastic
   if defined?(ActiveSupport::CoreExtensions)
 	DATE_FORMATS = ActiveSupport::CoreExtensions::Date::Conversions::DATE_FORMATS
   else
-	DATE_FORMATS = Date::DATE_FORMATS
+
   end
  
   module DatePicker
